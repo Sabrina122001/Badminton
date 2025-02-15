@@ -1,9 +1,9 @@
 Projet d'Analyse de Données Sportives
-Ce projet consiste à analyser des données sportives, en particulier des matchs de tennis en simple et en double, pour prédire les résultats des matchs et évaluer les performances des joueurs. Le projet est divisé en plusieurs notebooks Jupyter, chacun traitant un aspect spécifique de l'analyse.
+Ce projet consiste à analyser des données des matchs de badminton en simple et en double, pour prédire les résultats des matchs et évaluer les performances des joueurs. Le projet est divisé en plusieurs notebooks Jupyter, chacun traitant un aspect spécifique de l'analyse.
 
 Fichiers du Projet
   1. ModeleS.ipynb
-Ce notebook traite des matchs de tennis en simple. Il comprend les étapes suivantes :
+Ce notebook traite des matchs en simple. Il comprend les étapes suivantes :
 
 Chargement des données : Les données sont chargées à partir d'un fichier Excel (Singles.xlsx).
 
@@ -20,7 +20,7 @@ Calcul des scores : Un système de score est mis en place pour évaluer les perf
 Modèle de régression logistique : Un modèle de régression logistique est entraîné pour prédire les résultats des matchs en fonction des caractéristiques encodées.
 
     2. modeleD.ipynb
-Ce notebook traite des matchs de tennis en double. Il suit une structure similaire à ModeleS.ipynb mais adaptée aux matchs en double. Les étapes incluent :
+Ce notebook traite des matchs  en double. Il suit une structure similaire à ModeleS.ipynb mais adaptée aux matchs en double. Les étapes incluent :
 
 Chargement des données : Les données sont chargées à partir d'un fichier Excel (Double.xlsx).
 
@@ -36,15 +36,8 @@ Calcul des scores : Un système de score est mis en place pour évaluer les perf
 
 Modèle de régression logistique : Un modèle de régression logistique est entraîné pour prédire les résultats des matchs en double.
 
-    3. analyses.ipynb
-Ce notebook est actuellement vide et peut être utilisé pour des analyses supplémentaires ou des visualisations de données.
 
-Installation et Exécution
-Pour exécuter ce projet, vous aurez besoin des éléments suivants :
 
-Python 3.x : Assurez-vous d'avoir Python installé sur votre machine.
-
-Jupyter Notebook : Installez Jupyter Notebook pour exécuter les notebooks.
 
 Bibliothèques Python : Les bibliothèques suivantes sont nécessaires :
 
