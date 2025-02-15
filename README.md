@@ -2,7 +2,8 @@ Projet d'Analyse de Données Sportives
 Ce projet consiste à analyser des données des matchs de badminton en simple et en double, pour prédire les résultats des matchs et évaluer les performances des joueurs. Le projet est divisé en plusieurs notebooks Jupyter, chacun traitant un aspect spécifique de l'analyse.
 
 Fichiers du Projet
-  1. ModeleS.ipynb
+   1. ModeleS.ipynb
+
 Ce notebook traite des matchs en simple. Il comprend les étapes suivantes :
 
 Chargement des données : Les données sont chargées à partir d'un fichier Excel (Singles.xlsx).
